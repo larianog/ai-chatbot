@@ -1,7 +1,10 @@
-# ai-chatbot
+# AI Chatbot
 Project for creating a simple ai chatbot
 
-## Work in progress
+## Roadmap
+This is a roadmap of which features will be implemented in this project.
+
+### Goals
 <ol>
   <li>Implement a simple AI chatbot to answer simple text questions</li>
   <li>Add image and files support</li>
@@ -9,16 +12,14 @@ Project for creating a simple ai chatbot
   <li>Add chat history</li>
 </ol> 
 
-## Infrastructure
+### Infrastructure
 <ol>
   <li>Deploy the App on Azure or AWS</li>
   <li>Deploy an docker image</li>
 </ol>
 
-## Tech Stack
+### Tech Stack
 <ol>
-  <li>NextJs</li>
-  <li>Docker</li>
-  <li>Integrate tools in the chatbot</li>
-  <li>Add chat history</li>
+  <li>React</li>
+  <li>Node.js</li>
 </ol> 
