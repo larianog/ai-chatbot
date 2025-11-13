@@ -9,11 +9,10 @@ import {
   MessageList,
   Thread,
   Window,
+  AIStateIndicator,
+  ChannelHeader,
 } from 'stream-chat-react';
-import ChannelHeader from './ChannelHeader';
-
-import 'stream-chat-react/dist/css/v2/index.css';
-import './layout.css';
+import { useAIResponse } from './useAiResponse';
 
 const user: User = {
   id: userId,
@@ -31,6 +30,8 @@ const options: ChannelOptions = {
 };
 
 const App = () => {
+  useAIResponse();
+
   const client = useCreateChatClient({
     apiKey,
     tokenOrProvider: userToken,
@@ -44,7 +45,7 @@ const App = () => {
       <ChannelList filters={filters} sort={sort} options={options} />
       <Channel>
         <Window>
-          <ChannelHeader />
+          <ChannelHeader/>
           <MessageList />
           <MessageInput />
         </Window>
