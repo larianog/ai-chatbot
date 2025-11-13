@@ -4,13 +4,13 @@ import {
   useCreateChatClient,
   Chat,
   Channel,
-  ChannelHeader,
   ChannelList,
   MessageInput,
   MessageList,
   Thread,
   Window,
 } from 'stream-chat-react';
+import ChannelHeader from './ChannelHeader';
 
 import 'stream-chat-react/dist/css/v2/index.css';
 import './layout.css';
