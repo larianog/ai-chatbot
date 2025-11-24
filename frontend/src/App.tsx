@@ -9,7 +9,6 @@ import {
   MessageList,
   Thread,
   Window,
-  AIStateIndicator,
   ChannelHeader,
 } from 'stream-chat-react';
 import { useAIResponse } from './useAiResponse';
